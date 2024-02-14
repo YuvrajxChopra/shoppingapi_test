@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.toggle {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.option-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.option {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #eee;
+  border: none;
+  outline: none;
+}
+
+.selected {
+  background-color: #2196F3;
+  color: white;
+}
+.option:focus,
+.option.selected {
+  background-color: #2196F3;
+  color: white;
+}
+
+.signup-form,
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
+
+.name-fields,
+.address-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.name-fields label,
+.address-fields label {
+  width: 60%;
+}
+
+.name-fields input,
+.address-fields input {
+  width: 60%;
+}
+
+.address-fields {
+  width: 100%;
+}
+
+.forgot-password {
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: white;
+}
